@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking Platform</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .movie-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .movie-card .card-body {
+            text-align: center;
+            padding: 10px;
+            
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .logo1 {
+        height: 70px;
+        width: 70px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img class="logo1" src="logo1.png" alt=""> 
+            <a class="navbar-brand" href="#">BookMyShow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ticketboking.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sign-in.html">Sign-in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container text-center py-5">
+        <h1 class="display-4">Welcome to BookMyShow</h1>
+        <p class="lead">Book your favorite movie tickets in just a few clicks!!!</p>
+    </div>
+
+    
+    <div class="container" id="movies">
+        <h2 class="text-center my-4">Recent Shows</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="movie-card">
+                    <img style="height: 240px;" src="https://m.media-amazon.com/images/S/pv-target-images/34ad26abbc7a49fd05a67873bb65ea0e0bd5ac818ce0b7eb53db96aff464ffbb._UR1920,1080_.jpg" alt="Movie Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">Deadpool & Wolverine</h5>
+                        <p class="card-text">Deadpool's peaceful existence comes crashing down when the Time Variance Authority recruits him to help safeguard the multiverse. He soon unites with his would-be pal, Wolverine, to complete the mission and save his world from an existential threat..</p>
+                        <a href="ticketboking.html" class="btn btn-danger">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="col-md-4 mb-4">
+                <div class="movie-card">
+                    <img style="height: 240px;" src="https://www.overtake.gg/news/gran-turismo-movie-review-dont-trust-the-trailer.1272/cover-image" alt="Movie Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">Gran Turismo</h5>
+                        <p class="card-text">Based on the true story of Jann Mardenborough, the film is the ultimate wish fulfillment tale of a teenage Gran Turismo player whose gaming skills won a series of Nissan competitions to become an actual professional racecar driver..</p>
+                    <form action="ticketboking.html">
+                        <a href="ticketboking.html" class="btn btn-danger">Book Now</a>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="movie-card">
+                    <img style="height: 240px;" src="https://snworksceo.imgix.net/emu/0838752d-1b8b-4a4b-974d-ceb4fbdfb82e.sized-1000x1000.jpg?w=1000&dpr=2&ar=4%3A3&fit=crop&crop=faces%2Cedges" alt="Movie Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">The Substance</h5>
+                        <p class="card-text">Elisabeth Sparkle, renowned for an aerobics show, faces a devastating blow on her 50th birthday as her boss fires her. Amid her distress, a laboratory offers her a substance which promises to transform her into an enhanced version of herself..</p>
+                    <form action="ticketboking.html">
+                        <a href="ticketboking.html" class="btn btn-danger">Book Now</a>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <p>&copy; 2024 BookMyShow. All rights reserved.</p>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
